@@ -1,1 +1,4 @@
-# fckptn.github.io
+# Local
+```
+yarn start
+```
