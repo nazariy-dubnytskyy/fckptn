@@ -82,16 +82,15 @@ function App() {
   };
 
   useEffect(() => {
-    // runJob();
+    runJob();
   }, []);
 
   return (
     <div className='App'>
-      <section>
-        <button type='button' onClick={() => runJob()}>
-          start
-        </button>
-      </section>
+      <p>
+        Слава Україні! Please leave this page open to help stop Putin
+        & Russian Disinformation.
+      </p>
     </div>
   );
 }

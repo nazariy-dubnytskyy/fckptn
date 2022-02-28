@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.ukraine{
+  width:300px;
+  height:100px;
+  background-color:#005BBB;
+  box-shadow:0em 100px 0 0 #FFD500;
+}
