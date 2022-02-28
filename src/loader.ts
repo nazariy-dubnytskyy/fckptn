@@ -25,7 +25,6 @@ export class WorkerPool {
 
   fillPool = () => {
     for (var i = 0; i < this.size; i++) {
-      const id = generate(2);
       const img = document.createElement('img');
       document.getElementById('body')?.appendChild(img);
       this.pool.push(img);
